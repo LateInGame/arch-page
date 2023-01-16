@@ -244,4 +244,15 @@ nav li {
 
 /* Header Bottom */
 
+.header-bottom {
+  margin: var(--spacing) 0 0 0;
+}
 
+.active {
+  color: var(--accent);
+  background-image: linear-gradient(0deg, var(--accent), var(--accent));
+}
+
+.controls span {
+  margin: 0 0.5em;
+}
