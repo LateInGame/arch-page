@@ -93,3 +93,53 @@ ul span:hover,
 nav span {
   cursor: pointer;
 }
+
+.brand {
+  text-transform: capitalize;
+  font-size: 1.2em,
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 0.7em;
+}
+
+.search {
+  text-align: center;
+  border: none;
+  outline: none;
+  width: 8em;
+  transition: 0.3s;
+}
+
+.search,
+.controls span,
+.active {
+  background-image: linear-gradient(odeg, #111, #111);
+  background-repeat: no-repeat;
+  background-size: 50% 2px;
+  padding-bottom: 10px;
+  background-position: 50% bottom;
+}
+
+.search::placeholder {
+  color: #111;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.search:focus {
+  background-size: 120% 2px;
+}
+
+.form-mobile {
+  display: none;
+}
+
+.menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
