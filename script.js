@@ -5,7 +5,7 @@ const menuBtn = document.querySelector('.menu-btn');
 /* Toggle open/close menu */
 menuBtn.addEventListener('click', () => {
   menu.classList.toggle('menu-open');
-})
+});
 
 /* Slider */
 const pag = document.querySelectorAll('.pag');
