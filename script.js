@@ -54,6 +54,10 @@ next.addEventListener('click', () => {
   stopAutoSlide();
 });
 
+menuBtn.addEventListener('click', () => {
+  menu.classList.toggle('show');
+});
+
 prev.addEventListener('click', () => {
   id--;
   if(id < 0) {

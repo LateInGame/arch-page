@@ -4,6 +4,10 @@
   --spacing: 2.5em;
 }
 
+.menu.show {
+  display: block;
+}
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
