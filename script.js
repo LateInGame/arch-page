@@ -1,11 +1,11 @@
 /*Navbar*/
-const menu = document.querySelector('.menu');
-const menuBtn = document.querySelector('.menu-btn');
-
+const menu = document.getElementsByClassName("menu");
+const menuBtn = document.getElementsByClassName('menu-btn');
+console.log(menuBtn);
 /* Toggle open/close menu */
-menuBtn.addEventListener('click', () => {
-  menu.classList.toggle('menu-open');
-});
+
+menuBtn.addEventListener("click", menu.classList.toggle("menu-open"));
+
 
 /* Slider */
 const pag = document.querySelectorAll('.pag');
